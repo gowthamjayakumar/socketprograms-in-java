@@ -40,7 +40,7 @@ public static void main(String args[])
         Socket s1;
         s1= new Socket(h,p);
         DataOutputStream d = new DataOutputStream(s1.getOutputStream());
-        d.writeUTF("Stark server :");
+        d.writeUTF("Start server :");
     }
     
     catch(Exception ex)
